@@ -21,6 +21,6 @@ public class TestGroupTestNGxmlfile
     @Test
     public  void VerifyLogout()
     {
-        System.out.println("Page has Logout");
+        
     }
 }
