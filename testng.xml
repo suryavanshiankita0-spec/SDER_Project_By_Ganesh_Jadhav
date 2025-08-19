@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="Username" value="standard_user"/>
+    <parameter name="Password" value="secret_sauce"/>
+    <parameter name="BrowserName" value="crome"/>
+    <test verbose="10" preserve-order="true" parallel="false"  name="C:/Users/surya/IdeaProjects/MavenProject">
+        <classes>
+            <class name="MavenTestPRoject.Parameterization.NeedOfParameterization"/>
+
+        </classes>
+    </test>
+</suite>
