@@ -20,6 +20,7 @@ public class BasicOfTestNGExample
     {
         WebDriver driver=new ChromeDriver();
         driver.navigate().to("https://www.letskodeit.com/practice");
-        driver.manage().window().maximize();
+    
     }
 }
+
